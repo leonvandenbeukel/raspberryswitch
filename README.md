@@ -27,3 +27,5 @@ npm install gpio
 
 `http://<your raspberry ip address>:3000`
 
+Have fun!
+
