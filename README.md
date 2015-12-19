@@ -12,7 +12,7 @@ Log in on your Raspberry Pi and clone this repositry:
 git clone https://github.com/leonvandenbeukel/raspberryswitch.git
 `
 
-Change to the directory and then install install the npm gpio library:
+Change to the directory and then install the npm gpio library:
 
 `cd raspberryswitch`
 
