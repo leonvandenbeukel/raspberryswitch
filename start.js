@@ -1,3 +1,11 @@
+/*
+Relay pins:
+
+VCC - 2
+GND - 6 
+IN  - 15 (GPIO22)
+
+*/
 var http = require('http');
 var url  = require('url');
 var fs   = require('fs'); 
