@@ -6,22 +6,25 @@ https://www.youtube.com/watch?v=VFQtGCU3Tfk
 
 ##How to install
 
-* Install 
+* Install:
+
+Log in on your Raspberry Pi and clone this repositry:
 
 `
 git clone https://github.com/leonvandenbeukel/raspberryswitch.git
 `
 
-* Install gpio:
+* The install install the npm gpio library:
 
 `
 npm install gpio
 `
 
-* Start:
+* Start the server:
 
 `sudo nodejs start.js`
 
 * Browse to:
 
 `http://<your raspberry ip address>:3000`
+
