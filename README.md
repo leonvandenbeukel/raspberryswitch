@@ -1,22 +1,21 @@
 # Raspberry Pi Switch
 Control your lights with a Raspberry Pi and a webbrowser
 
-##Youtube
+##Demo on youtube
 https://www.youtube.com/watch?v=VFQtGCU3Tfk
 
 ##How to install
 
-* Install:
-
-Log in on your Raspberry Pi and clone this repositry:
+* Log in on your Raspberry Pi and clone this repositry:
 
 `
 git clone https://github.com/leonvandenbeukel/raspberryswitch.git
 `
 
-* The install install the npm gpio library:
+* Change to the directory and then install install the npm gpio library:
 
 `
+cd raspberryswitch
 npm install gpio
 `
 
