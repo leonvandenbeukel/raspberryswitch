@@ -39,11 +39,11 @@ var server = http.createServer(function (request, response) {
 				 // Set timer 
 				 intervalTimer = setInterval(function() {
 						
-						if (onoff == 1) {
-							gpio22.set();        
-						} else {
-							gpio22.reset();        
-						}      
+					if (onoff == 1) {
+						gpio22.set();        
+					} else {
+						gpio22.reset();        
+					}      
 				  
 				  }, 500);
 			   }
@@ -66,7 +66,7 @@ process.on('SIGINT', function() {
 	
 	// Reset and release gpio port
 	gpio22.reset();                
-    gpio22.unexport(function () {  
+    	gpio22.unexport(function () {  
 		console.log('...done.');	
 		process.exit(0);		
 	});                     
