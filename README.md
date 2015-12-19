@@ -14,10 +14,8 @@ git clone https://github.com/leonvandenbeukel/raspberryswitch.git
 
 * Change to the directory and then install install the npm gpio library:
 
-`
-cd raspberryswitch
-npm install gpio
-`
+`cd raspberryswitch`
+`npm install gpio`
 
 * Start the server:
 
