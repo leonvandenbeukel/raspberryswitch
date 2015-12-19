@@ -6,10 +6,10 @@ https://www.youtube.com/watch?v=VFQtGCU3Tfk
 
 ##How to install
 
-* Download 
+* Install 
 
 `
-todo
+git clone https://github.com/leonvandenbeukel/raspberryswitch.git
 `
 
 * Install gpio:
